@@ -58,8 +58,8 @@ String eval(){
       val.append("{");
       String x = valueList.remove();
       String y = valueList.remove();
-      val.append(x);
-      val.append("\u26");
+      val.append(x+" ");
+      val.append("\u2192"+" ");
       val.append(y);
       val.append("}");
     }
